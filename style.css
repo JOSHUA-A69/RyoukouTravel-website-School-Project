@@ -1,0 +1,145 @@
+/* Set font for all text elements */
+body, input, button, select, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url('https://i.postimg.cc/66nkP695/shutterstock-654727366-min-2048x1371.jpg');
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-position: center; /* Center the background image */
+}
+
+.container {
+    display: flex;
+    flex-direction: row; /* Change flex direction to row */
+    justify-content: space-between; /* Space between items */
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    width: 300px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    margin-right: 50px; /* Add margin to the right */
+}
+
+.form h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgba(255, 114, 0, 0.8); /* Semi-transparent orange color */
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 0 auto 20px; /* Center the heading */
+    width: fit-content; /* Adjust width to fit content */
+}
+
+.form input {
+    width: calc(100% - 20px); /* Take full width minus padding */
+    height: 40px;
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+    border: none;
+    border-bottom: 1px solid rgba(255, 114, 0, 0.8); /* Semi-transparent orange border */
+    color: #000;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    padding: 0 10px; /* Add padding */
+    transition: transform 0.3s ease; /* Add transition for smooth movement */
+}
+
+.form input:hover {
+    transform: translateY(-3px); /* Move the input field 3px upwards on hover */
+}
+
+.form input:focus {
+    outline: none;
+    border-color: rgba(255, 114, 0, 0.8); /* Semi-transparent orange border on focus */
+}
+
+::placeholder {
+    color: rgba(255, 114, 0, 0.8); /* Semi-transparent orange color */
+}
+
+.btnn {
+    width: 100%;
+    height: 40px;
+    background: rgba(255, 114, 0, 0.8); /* Semi-transparent orange background */
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff; /* White color */
+    text-decoration: none; 
+    transition: 0.4s ease, color 0.4s ease; 
+    display: inline-block; 
+}
+
+.btnn:hover {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background on hover */
+    color: rgba(255, 114, 0, 0.8); /* Semi-transparent orange color on hover */
+}
+
+.btnn a {
+    text-decoration: none; /* Remove underline from link within button */
+    color: inherit; /* Inherit color from parent button */
+}
+
+.form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a {
+    text-decoration: none;
+    color: rgba(255, 114, 0, 0.8); /* Semi-transparent orange color */
+    font-weight: bold;
+}
+
+.form .link a:hover {
+    text-decoration: underline; /* Show underline on hover */
+}
+
+.liw {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .welcomeText {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .container {
+        padding: 20px; /* Add padding for smaller screens */
+        flex-direction: column; /* Change flex direction to column for smaller screens */
+        align-items: center; /* Center align items for smaller screens */
+    }
+
+    .form {
+        width: 80%; /* Adjust form width for smaller screens */
+        margin-right: 0; /* Remove right margin for smaller screens */
+        margin-bottom: 20px; /* Add bottom margin for smaller screens */
+    }
+}
+
+.welcomeText {
+    font-family: cursive; /* Cursive font family */
+    font-size: 30px; /* Adjust font size as needed */
+    color: white; /* Set text color to white */
+    text-align: center; /* Center align the text */
+    margin-bottom: 5px; /* Reduce margin at the bottom */
+}
+
+.error-message {
+    color:  rgba(255, 114, 0, 0.8);
+}
