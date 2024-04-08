@@ -143,3 +143,14 @@ body {
 .error-message {
     color:  rgba(255, 114, 0, 0.8);
 }
+
+.caption {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px; /* Adjust as needed */
+    color: white; /* Adjust color as needed */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 10px; /* Adjust spacing as needed */
+    margin-left: 10px; /* Adjust spacing as needed */
+}
