@@ -154,3 +154,42 @@ body {
     margin-bottom: 10px; /* Adjust spacing as needed */
     margin-left: 10px; /* Adjust spacing as needed */
 }
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333; 
+    font-size: 30px; 
+}
+
+/* Facebook icon color */
+.social-icons a:nth-child(1) i {
+    color: #3b5998;
+}
+
+/* Twitter icon color */
+.social-icons a:nth-child(2) i {
+    color: #1da1f2;
+}
+
+/* Instagram icon color */
+.social-icons a:nth-child(3) i {
+    color: #e4405f;
+}
+
+/* YouTube icon color */
+.social-icons a:nth-child(4) i {
+    color: #c4302b;
+}
+
+.social-icons a:nth-child(5) i{
+    color: #c4302b;
+}
