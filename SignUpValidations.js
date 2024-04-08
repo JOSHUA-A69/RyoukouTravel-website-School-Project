@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const form = document.getElementById('signup_form');
     const fullname = document.getElementById('fullname');
     const email = document.getElementById('email');
+    const confirmEmail = document.getElementById('confirm_email'); 
     const password = document.getElementById('password');
     const confirmPassword = document.getElementById('confirm_password');
 
@@ -39,6 +40,15 @@ document.addEventListener('DOMContentLoaded', function () {
             isValid = false;
         } else if (!isValidEmail(email.value)) {
             showError('Please enter a valid email address', 'email-error');
+            isValid = false;
+        }
+
+        // Validate confirm email
+        if (confirmEmail.value === '') {
+            showError('Please confirm your email address', 'confirm-email-error');
+            isValid = false;
+        } else if (email.value !== confirmEmail.value) {
+            showError('Email confirmation does not match', 'confirm-email-error');
             isValid = false;
         }
 
