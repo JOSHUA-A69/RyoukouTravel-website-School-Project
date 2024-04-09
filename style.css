@@ -175,11 +175,6 @@ body {
     color: #3b5998;
 }
 
-/* Twitter icon color */
-.social-icons a:nth-child(2) i {
-    color: #1da1f2;
-}
-
 /* Instagram icon color */
 .social-icons a:nth-child(3) i {
     color: #e4405f;
