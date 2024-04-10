@@ -15,19 +15,19 @@
             <img class="logo" src="" alt="RyokouTravel Logo" width="280" height="150">
             <form id="signup_form" action="login.php" method="post">
                 <input type="text" id="fullname" name="fullname" placeholder="Enter Full Name">
-                <div id="fullname-error" class="error-message"></div>
+                <div id="fullname-error" class="error-message"><?php echo isset($fullname_error) ? $fullname_error : ''; ?></div>
 
                 <input type="email" id="email" name="email" placeholder="Enter Email Address">
-                <div id="email-error" class="error-message"></div>
+                <div id="email-error" class="error-message"><?php echo isset($email_error) ? $email_error : ''; ?></div>
 
                 <input type="email" id="confirm_email" name="confirm_email" placeholder="Confirm Email Address">
-                <div id="confirm-email-error" class="error-message"></div>
+                <div id="confirm-email-error" class="error-message"><?php echo isset($confirm_email_error) ? $confirm_email_error : ''; ?></div>
 
                 <input type="password" id="password" name="password" placeholder="Enter Password">
-                <div id="password-error" class="error-message"></div>
+                <div id="password-error" class="error-message"><?php echo isset($password_error) ? $password_error : ''; ?></div>
 
                 <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Password">
-                <div id="confirm-password-error" class="error-message"></div>
+                <div id="confirm-password-error" class="error-message"><?php echo isset($confirm_password_error) ? $confirm_password_error : ''; ?></div>
 
                 <button type="submit" class="btnn" id="signup_button">Sign Up</button>
                 <p class="link">Already have an account?<br>
