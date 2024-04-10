@@ -135,9 +135,10 @@ body {
 .welcomeText {
     font-family: 'Playfair Display', serif;
     font-size: 30px; /* Adjust font size as needed */
-    color: whitesmoke; /* Set text color to white */
+    color: whitesmoke;
     text-align: center; /* Center align the text */
     margin-bottom: 5px; /* Reduce margin at the bottom */
+    font-weight: bold;
 }
 
 .error-message {
@@ -147,10 +148,11 @@ body {
 .caption {
     font-family: 'Montserrat', sans-serif, bold;
     font-size: 18px; /* Adjust as needed */
-    color: whitesmoke; /* Adjust color as needed */
+    color: whitesmoke;
     text-align: center;
     margin-top: 0px; /* Adjust spacing as needed */
     margin-bottom: 10px; /* Adjust spacing as needed */
+    font-weight: bold;
 }
 
 .social-icons {
