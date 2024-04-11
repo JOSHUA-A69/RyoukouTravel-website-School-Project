@@ -103,8 +103,6 @@ html {
   
 }
 
-
-
 .nav-links {
   display: flex;
   align-items: center;
@@ -131,7 +129,7 @@ html {
 header {
   width: 100vw;
   height: 100vh;
-  background-image: url("https://i.postimg.cc/K8X2xtwj/9469868c-29a8-4521-8162-0ca04e3b77c3.jpg");
+  background-image: url('https://i.postimg.cc/mgkcMWJX/20170329-141234.jpg');
   background-position: bottom;
   background-attachment: fixed;
   background-size: cover;
@@ -256,115 +254,13 @@ section {
   margin-top: 30px;
 }
 
-/* explore */
-.explore {
-  width: 100%;
-  height: 100vh;
-  background-image: url(../img/bg2.png);
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-}
-
-.explore-content {
-  font-family: var(--ff-lora);
-  color: whitesmoke;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-left: 8rem;
-  position: relative;
-  z-index: 1;
-  padding: 2rem 17px;
-  margin: auto;
-}
-
-.explore-content::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  display: block;
-  background: rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(2.5px);
-  border-radius: 0.5rem;
-}
-
-.explore-content h1 {
-  /* width: 100%; */
-  font-size: calc(2.2rem + 1vw);
-  letter-spacing: 0.3rem;
-  margin: auto;
-}
-
-.explore-content .line {
-  margin-bottom: 50px;
-}
-
-.explore-content p {
-  color: rgb(221, 221, 221);
-  max-width: 65ch;
-  line-height: 1.5;
-  text-align: left;
-  padding: 0px 35px;
-}
-
-.explore-content .ctn {
-  margin: 17px auto;
-  padding: 12px 27px;
-}
-
-/* tours */
-.image-gallery {
-  display: grid;
-  gap: 1.8rem 1rem;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
-  padding: 1rem;
-}
-
-.tours .row {
-  gap: 4rem;
-}
-
-.content-col {
-  position: relative;
-}
-
-.content-col h1 {
-  font-size: calc(2.2rem + 1vw);
-  font-family: var(--ff-lora);
-  max-width: 15.5ch;
-}
-
-.content-col .line {
-  margin-left: 0;
-}
-
-.content-col p {
-  padding: 0;
-  margin: 30px 0;
-  width: 100%;
-  text-align: left;
-  max-width: 40ch;
-}
-
-.content-col .ctn {
-  position: absolute;
-  left: 0;
-  bottom: -14%;
-}
-
 /* about */
 #about {
   width: 100%;
 }
 
 #about_us {
-  background-image: url('https://i.postimg.cc/3xPY960f/anda-beach-tour-bohol-escapade-with-guide.jpg');
+  background-image: url('https://i.postimg.cc/pXdnVThm/mqfdkizpn3621.jpg');
   width: 100%;
   height: 630px;
   background-repeat: no-repeat;
@@ -408,6 +304,18 @@ section {
   font-size: 55px;
   color:  rgba(255, 114, 0, 0.8);
 }
+
+.desc {
+  font-family: var(--ff-montserrat);
+  font-size: 92%; 
+}
+
+.container {
+  max-width: 800px; /* Adjust as needed */
+  margin: 0 auto;
+  padding: 20px;
+}
+
 
 /* Contributors */
 .contributors {
@@ -528,7 +436,7 @@ form {
 }
 
 .c_boxx a:hover {
-  background-color: white;
+  background-color: black;
   color: white;
   transition: all 0.5s ease;
 }
