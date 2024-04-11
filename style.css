@@ -143,6 +143,7 @@ body {
 
 .error-message {
     color:  rgba(255, 114, 0, 0.8);
+    font-size:  13px;
 }
 
 .caption {
