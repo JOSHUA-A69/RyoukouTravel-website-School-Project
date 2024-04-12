@@ -108,6 +108,10 @@ html {
   align-items: center;
 }
 
+.nav-links li :hover{
+  color: black;
+}
+
 .nav-links li {
   font-family: var(--ff-montserrat);
   margin: 0px 15px;
@@ -315,7 +319,7 @@ section {
   padding: 0.2em 0.5em;
   color: whitesmoke;
   height: 14em;
-  width: 14em;
+  width: 12em;
   border-radius: 5px;
   margin: 1.5em 0.5em;
   display: flex;
@@ -352,7 +356,7 @@ section {
   width: 25%;
 }
 .logolink img {
-  border-radius: 100%;
+  border-radius: 25%;
   background-color: #ffff;
 }
 .logolink .any-logo {
