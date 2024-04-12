@@ -626,7 +626,7 @@ body {
 		height: 100%;
 		border-width: .8vmin .8vmin 0 0;
 		border-style: solid;
-		border-color:  #fff;
+		border-color: rgba(255, 114, 0, 0.8);
 		transition: .2s ease;
 		display: block;
 		transform-origin: 100% 0;
