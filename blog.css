@@ -227,7 +227,7 @@ section {
 
 .card-content h4 {
   font-size: 1.2rem;
-  margin: 15px 0;
+  margin: 3px 5px 20px; /* Adjusted margin */
   font-family: var(--ff-lora);
 }
 
@@ -236,12 +236,12 @@ section {
   font-size: var(--fs-paragraphs);
   font-family: var(--ff-roboto);
   line-height: 1.5;
+  margin-top: -5px; /* Adjusted margin */
 }
 
 .events .ctn {
   margin-top: 30px;
 }
-
 
 /* about */
 #about {
@@ -304,7 +304,6 @@ section {
   padding: 20px;
 }
 
-
 /* Contributors */
 .contributors {
   display: flex;
@@ -363,7 +362,7 @@ section {
   border-radius: 100%;
   background-color: #ffff;
 }
-.logolink .facebook-logo {
+.logolink .any-logo {
   width: 100%;
 }
 
