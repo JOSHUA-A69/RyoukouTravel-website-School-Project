@@ -220,10 +220,11 @@ section {
   font-size: 1.2rem;
   margin: -10px 5px 20px; /* Adjusted margin */
   font-family: var(--ff-lora);
+  color: rgba(255, 114, 0, 0.8);
 }
 
 .card-content p {
-  color: #7c7c7c;
+  color:rgba(255, 114, 0, 0.8);
   font-size: var(--fs-paragraphs);
   font-family: var(--ff-roboto);
   line-height: 1.5;
@@ -238,6 +239,7 @@ section {
 /* about */
 #about {
   width: 100%;
+  color: rgba(255, 114, 0, 0.8);
 }
 
 #about_us {
@@ -276,7 +278,7 @@ section {
   color: white;
   text-align: justify;
   padding-top: 14em;
-  font-family: "Work Sans", sans-serif;
+  font-family: var(--ff-rubik-dirt);
   margin-left: 6em;
 }
 
@@ -306,12 +308,12 @@ section {
   flex-wrap: wrap;
   width: 100%;
   min-height: 100vh;
-  background-color: black;
+  background-color:  whitesmoke;
   font-family: "Montserrat", sans-serif;
 }
 
 .concard {
-  background-color: #ffff;
+  background-color: whitesmoke;
   padding: 0.2em 0.5em;
   color: #222;
   height: 12em;
@@ -345,6 +347,7 @@ section {
   font-weight: 600;
   font-size: 20px;
   font-family: "Teko", sans-serif;
+  color: rgba(255, 114, 0, 0.8);
 }
 .logolink {
   margin: 0.6em 0em 0em 0em;
@@ -524,19 +527,19 @@ input[type="submit"]:hover {
   min-height: 100px;
   padding: 20px 80px;
   margin: 0;
-  background: black;
+  background: whitesmoke;
   text-align: center;
 }
 
 .footer p {
-  color: whitesmoke;
+  color: rgba(255, 114, 0, 0.8);
   margin: 20px auto;
   padding: 20px auto;
 }
 
 .footer span {
   display: block;
-  color: whitesmoke;
+  color: rgba(255, 114, 0, 0.8);
   padding: 20px auto;
 }
 
@@ -565,7 +568,7 @@ input[type="submit"]:hover {
 .social i {
   display: inline;
   text-align: center;
-  color: whitesmoke;
+  color: black;
 }
 
 /* animations */
@@ -601,63 +604,11 @@ img:hover {
 }
 
 body {
- background-color: black;
-  color: white;
-}
-
-body.dark{
-  background-color: white;
-  color: black;
-}
-
-.checkbox {
-  opacity: 0;
-  position: absolute;
-}
-
-.label {
-  width: 48px;
-  height: 22px;
-  background-color:#111;
-  display: flex;
-  border-radius:50px;
-  align-items: center;
-  justify-content: space-between;
-  padding: 5px;
-  position: relative;
-  transform: scale(1.5);
-}
-
-.ball {
-  width: 20px;
-  height: 18px;
-  background-color: white;
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  border-radius: 50%;
-  transition: transform 0.2s linear;
-}
-
-/*  target the elemenent after the label*/
-.checkbox:checked + .label .ball{
-  transform: translateX(24px);
-}
-
-.fa-moon-o {
-  color: white;
-}
-
-.fa-sun-o {
-  color: yellow;
-}
-
-.color{
-  color:white;
+ background-color: whitesmoke;
+  color:rgba(255, 114, 0, 0.8);
 }
 
 /* scroll button */
-
 .arrow {
   position: fixed; 
   z-index: 99;
@@ -693,7 +644,7 @@ body.dark{
 		height: 100%;
 		border-width: 0 .8vmin 0 0;
 		border-style: solid;
-		border-color:  #fff;
+		border-color:  rgba(255, 114, 0, 0.8);
 		transform-origin: 100% 0;
 		transition:.2s ease;
 	}
@@ -710,26 +661,6 @@ body.dark{
 	}
 	
 }
-
-/* Dark Mode Styles Scroll Button  */
-.dark .arrow {
-  &::before {
-    border-color: black; 
-  }
-
-  &:after {
-    border-color: black;
-  }
-
-  &:hover::after {
-    border-color: rgba(255, 114, 0, 0.8);
-  }
-
-  &:hover::before {
-    border-color: rgba(255, 114, 0, 0.8);
-  }
-}
-
 
 #quote {
   position: relative;
