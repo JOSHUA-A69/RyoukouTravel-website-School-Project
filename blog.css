@@ -313,9 +313,9 @@ section {
 .concard {
   background-color: whitesmoke;
   padding: 0.2em 0.5em;
-  color: #222;
+  color: whitesmoke;
   height: 14em;
-  width: 10em;
+  width: 14em;
   border-radius: 5px;
   margin: 1.5em 0.5em;
   display: flex;
@@ -324,16 +324,16 @@ section {
   justify-content: center;
 }
 .concard:hover {
-  background-color:rgba(255, 114, 0, 0.8); 
-  border-bottom: 5px solid #fff;
-  color: #fff;
+  background-color: whitesmoke; 
+  border-bottom: 5px solid whitesmoke;
+  color: whitesmoke;
   transform: translateY(-7.5px);
   transition: background-color 0.5s ease, transform 1s ease,
     border-bottom 0.5s ease 0.2s;
 }
 
 .concard .pfp {
-  width: 35%;
+  width: 150%;
   border-radius: 10%;
 }
 .text {
