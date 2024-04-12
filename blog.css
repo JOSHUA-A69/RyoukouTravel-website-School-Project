@@ -180,15 +180,6 @@ header {
   color: whitesmoke;
 }
 
-.menu-btn {
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  width: 40px;
-  cursor: pointer;
-  display: none;
-}
-
 /* Events */
 section {
   width: 80%;
@@ -227,7 +218,7 @@ section {
 
 .card-content h4 {
   font-size: 1.2rem;
-  margin: 3px 5px 20px; /* Adjusted margin */
+  margin: -10px 5px 20px; /* Adjusted margin */
   font-family: var(--ff-lora);
 }
 
@@ -236,12 +227,13 @@ section {
   font-size: var(--fs-paragraphs);
   font-family: var(--ff-roboto);
   line-height: 1.5;
-  margin-top: -5px; /* Adjusted margin */
+  margin-top: -15px; /* Adjusted margin */
 }
 
 .events .ctn {
-  margin-top: 30px;
+  margin-bottom: 100px;
 }
+
 
 /* about */
 #about {
