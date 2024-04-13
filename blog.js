@@ -20,4 +20,17 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
+// Function to prompt logout confirmation
+function confirmLogout() {
+    // Prompt user with a confirmation dialog
+    let logoutConfirmed = confirm("Are you sure you want to log out?");
 
+    // If user confirms logout, redirect to logout page
+    if (logoutConfirmed) {
+        window.location.href = "LogInPage.html"; // Replace "LogInPage.html" with your actual login page URL
+    }
+}
+
+// Add event listener to the "Log Out" link
+let logoutLink = document.querySelector("nav .nav-links li:last-child a"); // Adjust the selector based on your HTML structure
+logoutLink.addEventListener("click", confirmLogout);
