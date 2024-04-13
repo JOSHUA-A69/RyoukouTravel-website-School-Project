@@ -20,7 +20,6 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
-
 // Function to prompt logout confirmation
 function confirmLogout(event) {
     // Prevent the default behavior of the link
