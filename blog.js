@@ -27,10 +27,13 @@ function confirmLogout() {
 
     // If user confirms logout, redirect to logout page
     if (logoutConfirmed) {
-        window.location.href = "LogInPage.html"; // Replace "LogInPage.html" with your actual login page URL
+        window.location.href = "LogInPage.html"; 
     }
 }
 
 // Add event listener to the "Log Out" link
-let logoutLink = document.querySelector("nav .nav-links li:last-child a"); // Adjust the selector based on your HTML structure
+let logoutLink = document.querySelector("nav .nav-links li:last-child a"); 
 logoutLink.addEventListener("click", confirmLogout);
+
+
+
