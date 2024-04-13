@@ -236,6 +236,9 @@ section {
 
 .events .ctn {
   margin-bottom: 100px;
+  display: flex;
+  width: 200px;
+  height: 50px;
 }
 
 
