@@ -20,8 +20,12 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
+
 // Function to prompt logout confirmation
-function confirmLogout() {
+function confirmLogout(event) {
+    // Prevent the default behavior of the link
+    event.preventDefault();
+
     // Prompt user with a confirmation dialog
     let logoutConfirmed = confirm("Are you sure you want to log out?");
 
@@ -34,6 +38,3 @@ function confirmLogout() {
 // Add event listener to the "Log Out" link
 let logoutLink = document.querySelector("nav .nav-links li:last-child a"); 
 logoutLink.addEventListener("click", confirmLogout);
-
-
-
