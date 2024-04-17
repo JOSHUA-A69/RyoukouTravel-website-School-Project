@@ -215,6 +215,10 @@ section {
   border-radius: 8px;
 }
 
+.card.col .card-img {
+  transform: none; /* Disable hover zoom */
+}
+
 .card-content {
   padding: 20px;
 }
