@@ -770,4 +770,43 @@ input[type=radio] {
   transform: translateY(-80px);
 }
 
+/* tours */
+.image-gallery {
+  display: grid;
+  gap: 1.8rem 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  padding: 1rem;
+}
 
+.tours .row {
+  gap: 4rem;
+}
+
+.content-col {
+  position: relative;
+}
+
+.content-col h1 {
+  font-size: calc(2.2rem + 1vw);
+  font-family: var(--ff-lora);
+  max-width: 15.5ch;
+}
+
+.content-col .line {
+  margin-left: 0;
+}
+
+.content-col p {
+  padding: 0;
+  margin: 30px 0;
+  width: 100%;
+  text-align: left;
+  max-width: 40ch;
+}
+
+.content-col .ctn {
+  position: absolute;
+  left: 0;
+  bottom: -14%;
+}
