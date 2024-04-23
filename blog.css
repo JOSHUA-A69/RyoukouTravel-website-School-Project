@@ -89,6 +89,8 @@ html {
   padding: 12px 5px;
   z-index: 10;
   color: whitesmoke;
+  backdrop-filter: saturate(180%) blur(20px);
+  background-color: rgba(255, 255, 255, 0.3); 
 }
 
 .logo {
@@ -939,4 +941,18 @@ input[type=radio] {
 
 .explore .article-img {
   transform: none; /* Disable hover zoom */
+}
+
+.spotDesc {
+  width: 80%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.spotDesc p {
+  margin-bottom: 20px;
+}
+
+.content-col {
+  text-align: center;
 }
