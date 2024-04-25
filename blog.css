@@ -299,7 +299,7 @@ section {
   color:  rgba(255, 114, 0, 0.8);
 }
 
-.desc {
+.desc{
   font-size: 92%; 
 }
 
@@ -951,6 +951,8 @@ input[type=radio] {
 
 .spotDesc p {
   margin-bottom: 20px;
+  font-size: 100%;
+  font-family: var(--ff-lora);
 }
 
 .content-col {
