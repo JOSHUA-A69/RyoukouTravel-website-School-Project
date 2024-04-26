@@ -132,6 +132,7 @@ html {
 }
 
 header {
+  background-image: url('https://i.postimg.cc/R0NzWhZt/9469868c-29a8-4521-8162-0ca04e3b77c3.jpg');
   width: 100vw;
   height: 100vh;
   background-position: bottom;
@@ -346,7 +347,7 @@ section {
 }
 
 .concard .pfp {
-  width: 150%;
+  width: 90%;
   border-radius: 10%;
 }
 .text {
