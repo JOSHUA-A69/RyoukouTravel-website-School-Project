@@ -953,7 +953,7 @@ input[type=radio] {
 .spotDesc p {
   margin-bottom: 20px;
   font-size: 100%;
-  font-family: var(--ff-lora);
+  font-family: var(--ff-montserrat);
 }
 
 .content-col {
