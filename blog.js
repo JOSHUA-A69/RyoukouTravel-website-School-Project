@@ -37,3 +37,11 @@ function confirmLogout(event) {
 // Add event listener to the "Log Out" link
 let logoutLink = document.querySelector("nav .nav-links li:last-child a"); 
 logoutLink.addEventListener("click", confirmLogout);
+
+//Image Slider 
+var swiper = new Swiper('.swiper-container', {
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+});
